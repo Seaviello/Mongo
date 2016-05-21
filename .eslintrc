@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+    /* "ecmaFeatures": {
+       "jsx": true
+     }*/
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mongo": true
+  },
+  "rules": {
+    "indent": [2, "tab"],
+    "semi": [2, "always"],
+    "comma-dangle": [2, "never"],
+    "max-len": [
+      2,
+      120,
+      2
+    ],
+    "no-trailing-spaces": [
+      2,
+      {
+        "skipBlankLines": true
+      }
+    ],
+    "new-cap": [
+      2,
+      {
+        "capIsNewExceptions": [
+          "DOMtoCanvas"
+        ]
+      }
+    ],
+    // import errors
+    "import/no-unresolved": 2,
+    "import/named": 2,
+    "import/default": 2,
+    "import/namespace": 2,
+    "import/export": 2,
+    // import warnings
+    "import/no-duplicates": 1
+  },
+  "plugins": [
+    "import"
+  ]
+}
