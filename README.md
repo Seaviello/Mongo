@@ -16,4 +16,3 @@ What is missing/ could be better?
 1. No sign-up/login page and logic behind it (routing, schema/model, collection on database).
 2. Frontend part should be rewritten.
 3. Schema/Model for reviews.
-
